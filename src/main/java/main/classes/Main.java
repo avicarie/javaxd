@@ -23,7 +23,7 @@ public class Main {
 
 
 
-        Mathematics mathematics = new Mathematics(Clock.system(ZoneId.of("Australia/Darwin")));
+//        Mathematics mathematics = new Mathematics(Clock.system(ZoneId.of("Australia/Darwin")));
 //        System.out.println(mathematics.getCurrentDate());
         System.out.println(Mathematics.sum(5,6));
 

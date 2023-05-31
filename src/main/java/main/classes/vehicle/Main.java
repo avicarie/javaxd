@@ -7,10 +7,12 @@ public class Main {
     public static void main(String[] args) {
         Vehicle bike = new Bike();
         Vehicle car = new Car();
+        bike.setName("UNIBIKE");
         List<Vehicle> vehicleList = Arrays.asList(bike, car);
         for(Vehicle vehicle: vehicleList){
             printSpecification(vehicle);
         }
+        System.out.println(bike.getName());
     }
 
     private static void printSpecification(Vehicle vehicle){
