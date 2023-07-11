@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Stream {
+
+
   public static void main(String[] args) {
     List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 10, 215, 32, 12, 10, 1);
 //
